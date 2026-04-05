@@ -40,3 +40,22 @@ It manages hardware and software resources and allows users to interact with the
 - CentOS  
 - Red Hat Enterprise Linux (RHEL)  
 - Debian  
+
+--- 
+
+# 🔐 sudo Command (Superuser Do)
+
+## 📌 What is sudo?
+
+👉 `sudo` allows a normal user to run commands with **admin (root) privileges**
+
+📌 Marathi:  
+👉 `sudo` वापरून normal user admin (root) permission ने command run करू शकतो  
+
+---
+
+## 📌 Basic Syntax
+
+```bash
+sudo command
+```
