@@ -1,4 +1,22 @@
-# Linux User Management  
+# Linux User Management   
+
+# 👤 What is a User?
+
+👉 A **user** is an identity in Linux system.
+
+## 📌 Purpose:
+- Login into system  
+- Run commands/programs  
+- Own files & processes  
+
+## 🧠 Example:
+- `aniket` → your account  
+- `root` → admin user (full control)  
+
+## 📌 Marathi:
+👉 User म्हणजे system मध्ये login करणारी ओळख (identity)  
+तो files create करतो, commands run करतो  
+
 
 * Create user
 
@@ -29,8 +47,26 @@ id username
 ```
 cat /etc/passwd
 ```
+--- 
 
-# Linux Group Management 
+# Linux Group Management  
+
+# 👥 What is a Group?
+
+👉 A **group** is a collection of users  
+
+## 📌 Purpose:
+- Manage permissions easily  
+- Share access to files/resources  
+
+## 🧠 Example:
+- `devops` group → multiple users inside  
+- All users can access same files  
+
+## 📌 Marathi:
+👉 Group म्हणजे users चा set  
+permissions manage करायला easy होतं 
+
 
 * Create group
 
