@@ -32,6 +32,49 @@ cat /etc/passwd
 
 # Linux Group Management 
 
+* Create group
+
+```
+sudo groupadd (gropuname )
+```
+
+*  Delete group
+
+```
+sudo groupdel (groupname)
+
+```
+
+* Modify group name
+
+```
+sudo groupmod -n newname oldname
+
+```
+
+*  Add user to group
+
+```
+sudo usermod -aG  groupname username
+
+```
+
+* Remove user from group
+
+```
+sudo gpasswd -d username groupname
+
+```
+
+* Check group
+
+```
+> groups username
+
+> getent group
+
+```
+
 * Modify user ( add to group )
 
 ```
