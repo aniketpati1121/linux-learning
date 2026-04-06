@@ -1,4 +1,4 @@
-# Linux Permissions Cheatsheet (RHCSA)
+# Linux Permissions 
 
 ## Basic permissions: r, w, x
 
