@@ -1,5 +1,6 @@
 # Linux Text Processing  
 
+
 ## Create text file using command 
 
 ```
@@ -12,6 +13,7 @@ echo -e "Ram\nShyam\nPratik\nDev" > aniket.txt
 cat aniket.txt
 ```
 
+
 ## 1 grep command 
 
 ```
@@ -19,6 +21,7 @@ grep "Ram" aniket.txt
 grep -i "Dev" aniket.txt (-i used for case sensitive )
 ```
 >> this input avilable in text file then they show
+
 
 
 ## 2 cut command 
@@ -33,6 +36,44 @@ check output using this command :
 > cut -d "," -f2 info.csv
 ```
 
-## 3 
+
+## 3  awk command 
+
+```
+awk '{print $1}' data.txt
+
+( print first column )
+```
+
+```
+awk 'END {print NR }' data.txt
+
+( print size of .txt file)
+```
+
+
+## 4 sed command  ( used for replace word any version language many usage )
+
+```
+sed 's/apple/mango/' data.txt
+( In this apple will be replace by mango )
+
+sed 's/apple/mango/g' data.txt
+( In this in last 'g' used then in this all apple will be replace by mango )
+```
+
+
+## 5 Sort command ( basically they used for alphabectical order ) 
+
+```
+sort data.txt ( In this normal sorting they a-z alphabtes )
+
+sort -r data.txt ( In this they sort reverse z-a alphabtes )
+```
+
+## 6 uniq command 
+
+
+
 
 
