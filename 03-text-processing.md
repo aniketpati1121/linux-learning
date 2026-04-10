@@ -73,6 +73,22 @@ sort -r data.txt ( In this they sort reverse z-a alphabtes )
 
 ## 6 uniq command 
 
+ >> This command basically give in output only original value remove duplicates
+
+```
+sort data.txt | uniq ( In this command only show uniq value but rule is value are adjacent means ex . ved ved , dev dev like this )
+
+uniq data.txt (show only original values)
+ 
+sort data.txt | uniq -c ( In this they calculate duplicates value of data )
+
+sort data.txt | uniq -d ( This command show duplicates value )
+
+sort data.txt | uniq -u ( This command show uniq value )
+
+```
+
+
 
 
 
