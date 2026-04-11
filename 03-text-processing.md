@@ -98,6 +98,19 @@ echo "devops" > file.txt ( I this you add new content and remove indirectly old 
 echo "DevOps" >> file.txt ( I this using ">>" app new content with exsiting content )
 ```
 
+## 8 Pipe (|) 
+
+>> Pipe command basically find to two or more output in command
+>> { | } This command basically connect next command
+
+>> ex :
+
+```
+cat data.txt | grep "banana" > 1.file show  data.txt 2. find banana in .txt file
+
+sort data.txt | uniq  > arrange to words of data.txt & remove duplicates using in uniq
+```
+
 
 
 
