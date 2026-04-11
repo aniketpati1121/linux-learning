@@ -88,6 +88,16 @@ sort data.txt | uniq -u ( This command show uniq value )
 
 ```
 
+## 7 Redirection 
+
+```
+echo "Linux" > file.txt ( This command create a file and add text 
+
+echo "devops" > file.txt ( I this you add new content and remove indirectly old content )
+
+echo "DevOps" >> file.txt ( I this using ">>" app new content with exsiting content )
+```
+
 
 
 
