@@ -48,7 +48,17 @@ Ctrl + C → process terminate ❌
 Ctrl + Z → process pause ⏸️
 ```
 
-## 10 
+## 10 nice ( add time priority )
+```
+nice -n 10 sleep 300 &
+```
+## 11 renice (change running process priority)
+```
+renice 5 -p PID
+```
+>> -20 → highest priority
+>>  19 → lowest priority
+
 
 
 
