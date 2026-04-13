@@ -4,6 +4,8 @@
 ```
 ps (check running ps)
 ps aux (check in details)
+ps aux | grep sleep  ( used for check process id )
+ps -o pid,ni,comm -p 1234 ( direct check PID,Nice value, command )
 ```
 
 ## 2 top
@@ -19,7 +21,8 @@ kill -9 PID
 
 ## 4 background process 
 ```
-sleep 500 & (start this process for 500 second) 
+sleep 500 & (start this process for 500 second)
+nice -n 10 sleep 1000 & ( create a job with direct nice value )
 ```
 
 ## 5 jobs (list jobs)
