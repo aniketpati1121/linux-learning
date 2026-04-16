@@ -8,4 +8,7 @@ hostnamectl
 hostnamectl set-hostname new-hostname
 ```
 
-## 
+## update a hostname 
+```
+exec bash
+```
