@@ -53,5 +53,12 @@ man ls     # manual page
 ls --help  # quick help
 ```
 
-## 
+## Shell Prompt related commands 
+```
+sudo -i  >> go to root user
+
+su - (username ) ex : su - aniketpatil  >> go to direct user prompt
+
+exit  >> direct go root user
+```
 
