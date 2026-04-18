@@ -5,6 +5,8 @@
 - Terminal & shell (bash)
 - Access (local / SSH)
 
+  ![Root Image](image.png)
+
 ## 2. Basic Commands
 - Navigation: pwd, cd, ls
 - File ops: cp, mv, rm, touch
