@@ -1,11 +1,12 @@
 # RHCSA Syllabus (Linux)
 
+: Liunx Root Folder Structure :
+ ![Root Image](image.png)
+ 
 ## 1. Linux Basics
 - Linux overview
 - Terminal & shell (bash)
 - Access (local / SSH)
-
-  ![Root Image](image.png)
 
 ## 2. Basic Commands
 - Navigation: pwd, cd, ls
