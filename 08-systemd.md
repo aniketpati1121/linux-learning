@@ -11,8 +11,17 @@ systemctl reload (service name )    # reload config
 
 ```
 systemctl enable (service name)    # start at boot
+
 systemctl disable (service name)   # stop at boot
+
 systemctl is-enabled (service name) # check
+
+systemctl enable --now (service name) # start a boot with run service )
+
+systemctl mask (service name)  #  * Completely disables service * Even root cannot start it
+
+systemctl unmask (service name)  # * Removes block * Now service can start again
+
 ```
 
 ## Status & Check
