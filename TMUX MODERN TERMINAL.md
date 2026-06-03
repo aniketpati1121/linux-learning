@@ -32,6 +32,10 @@ Ctrl+B P   -> previous window
 
 Ctrl+B ,
 
+Ctrl + b & press s ( check the running session window
+
+tmux lsw   -> check avilable window 
+
 tmux list-windows    -> check how many window in specifc session
 
 ```
